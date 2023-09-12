@@ -4,3 +4,5 @@ Mouse
 Auriculares
 Monitor
 Lentes
+Teclado
+Pad
