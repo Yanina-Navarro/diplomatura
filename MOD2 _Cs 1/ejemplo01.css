@@ -1,0 +1,31 @@
+/*font-family: 'Englebert', sans-serif;*/
+
+.caja{
+    /*background-color: yellow;*/
+    width: 300px;
+    padding: 20px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow: 10px 20px 25px black;
+    border-radius: 25px;
+    border-radius: 50px 25px;
+    border-radius: 10px 20px 30px;
+    border-radius: 10px 20px 30px 40px;
+}
+.texto{
+    margin-top: 20px;
+    background-color: yellow;
+    column-count: 4;
+    column-gap: 30px;
+    column-rule: 2px solid black;
+}
+.texto p {
+    margin: 0;
+    font-family: 'Englebert', sans-serif;
+    font-size: 12px;
+}
+h2{
+    margin-top: 30px;
+    font-family: 'Englebert', sans-serif;
+    color: red;
+}
