@@ -1,0 +1,26 @@
+body{
+    background: #332f29;
+}
+.contenedor{
+    background-color: #8FA68E;
+    width: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+}
+nav{
+    background-color: orangered;
+    width: 200px;
+    float: left;
+    
+}
+.contenido{
+    background-color: #EEDC9B;
+    float: left;
+    margin: 0 0 0 60px;
+    width: 500px;
+}
+aside{
+    background-color: #DACE9F;
+    width: 150px;
+    float: right;
+}

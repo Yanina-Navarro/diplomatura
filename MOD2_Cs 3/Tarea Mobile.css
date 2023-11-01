@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    background-color: #8FA68E;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    background-color: #FC6;
+    float: none;
+    height: 70px;
+    width: 100%;
+}
+.contenido{
+    border-top: solid black 1px;
+    float: none;
+    width: 100%;
+    padding: 0.5em;
+    margin-left: 0;
+}
+aside{
+    border-top: solid black 1px;
+    float: none;
+    width: 100%;
+    padding: 0.7em;
+    margin-left: 0;
+}
