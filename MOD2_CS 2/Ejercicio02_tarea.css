@@ -1,5 +1,6 @@
 .contenedor{
     background-color: white;
+    border: 2px solid black;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;

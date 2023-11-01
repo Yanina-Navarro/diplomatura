@@ -1,6 +1,7 @@
 .contenedor{
     background-color: white;
-    display: inline-flex;
+    border: 2px solid black;
+    display: flex;
     flex-direction: column;
     align-items: flex-end;
     width: 500px;
@@ -8,7 +9,7 @@
 }
 .rojo{
     background-color: red;
-    width: 100px;
+    width: 200px;
 	height: 400px;
 	font-size: 20px;
     color: white;
@@ -18,7 +19,7 @@
 }
 .azul{
     background-color: blue;
-    width: 100px;
+    width: 200px;
 	height: 400px;
 	font-size: 20px;
     color: white;
@@ -28,7 +29,7 @@
 }
 .verde{
     background-color: green;
-    width: 100px;
+    width: 200px;
 	height: 400px;
 	font-size: 20px;
     color: white;
