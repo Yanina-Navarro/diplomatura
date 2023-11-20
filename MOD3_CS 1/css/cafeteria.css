@@ -1,0 +1,162 @@
+/*font-family: 'Playfair Display', serif;*/
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background: rgb(203,160,41);
+    background: linear-gradient(288deg, rgba(203,160,41,1) 0%, rgba(254,226,150,1) 50%, rgba(244,241,237,1) 100%);
+    padding: 20px 0;
+}
+
+header h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 25px;
+    margin-left: 30px;
+}
+
+nav{
+    background-color: #e7c25e;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+
+nav ul li a:hover{
+    background-color: #ac851c;
+}
+
+footer{
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+nav ul li a.activo{
+    background-color: #c6940e;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.homeimg,
+.texto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto{
+    font-size: 50px;
+    box-sizing: border-box;
+    line-height: normal;
+    text-align: center;
+}
+
+h2{
+    color: #775703;
+}
+
+h3{
+    color: #775703;
+    font-size: 30px;
+}
+
+.testimonios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonio{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.testimonio .comentario{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+    
+.testimonio .autor{
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
+
+/*fin home*/
+
+/*inicio nosotros*/
+
+.historia{
+    font-size: 12px;
+}
+
+.tiposcafe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cafe{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.cafe img{
+    border: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.cafe h5{
+    margin: 0;
+    font-weight: normal;
+    color: #ac851c;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.cafe p{
+    color: #666;
+    font-size: 10px;
+}
