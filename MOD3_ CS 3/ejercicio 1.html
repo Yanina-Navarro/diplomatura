@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea - Ejercicio 1</title>
+</head>
+<body>
+    <script>
+        metros = parseInt(prompt('Ingrese los metros a recorrer en números:', ''));
+
+        if (metros <= 999 || metros == 1) { // || OR
+            document.write('Corresponde ir a pie.');
+        } else if (metros <= 9999 || metros == 2) {
+            document.write('Corresponde ir en bicicleta.');
+        } else if (metros <= 29999 || metros == 3) {
+            document.write('Corresponde ir en colectivo.');
+        } else if (metros <= 99999 || metros == 4) {
+            document.write('Corresponde ir en auto.');
+        } else {
+            document.write('Corresponde ir en avión.');
+        }
+    </script>   
+</body>
+</html>
