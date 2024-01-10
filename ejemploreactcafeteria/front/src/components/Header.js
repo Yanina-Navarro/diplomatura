@@ -1,10 +1,12 @@
 const Header = (props) => {
 
     return(
-        <>
-        <h1>Cafeteria</h1>
-        <p>Bienvenidos</p>
-        </>
+        <header>
+            <div className="holder">
+                <img src="public/img/logo.png" width="100" alt="Cafeteria X"/>
+                <h1>Cafeteria X</h1>
+            </div>
+        </header>
     )
 }
 

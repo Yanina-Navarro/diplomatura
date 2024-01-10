@@ -1,7 +1,9 @@
 const Footer = (props) => {
 
     return(
-        <p>Final del sitio</p>
+        <footer>
+            <p>Derechos reservados. Cafeteria X. 2024</p>
+        </footer>
     )
 }
 
