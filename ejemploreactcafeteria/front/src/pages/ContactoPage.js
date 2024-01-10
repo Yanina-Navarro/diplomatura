@@ -1,3 +1,5 @@
+import '../styles/contactopage.css';
+
 const ContactoPage = (props) => {
 
     return (
