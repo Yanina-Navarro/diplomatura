@@ -1,0 +1,29 @@
+<div class="container" style="margin-top: 100px;">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h4>Agregar Nueva Novedad</h4>
+        <form action="/admin/novedades/agregar" method="post">
+             <div class="form-group">
+                <div class="col-sm-10">
+                 <label for="inputtitulo" class="form-label">Título</label>
+                  <input type="text" class="form-control" id="inputtitulo" name="titulo">
+                </div>
+             </div>
+            <div class="col-sm-10">
+                  <label for="inputsubtitulo" class="form-label">Subtítulo</label>
+                 <input type="text" class="form-control" id="inputsubtitulo" name="subtitulo">
+            </div>
+            <div class="col-sm-10">
+                  <label for="inputcuerpo" class="form-label">Novedad</label>
+                 <input type="text" class="form-control" id="inputcuerpo" name="cuerpo">
+            </div>
+            <div class="col-10" style="margin-top: 30px;">
+                 <button type="submit" class="btn btn-primary">Agregar</button>
+                  </div>
+         </form>
+         {{#if error}}
+         <p style="margin-top: 20px;">{{message}}</p>
+         {{/if}}
+         </div>
+    </div>
+</div>
