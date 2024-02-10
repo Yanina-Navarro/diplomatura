@@ -1,0 +1,55 @@
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.homeimg,
+.texto{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.texto{
+    font-size: 50px;
+    box-sizing: border-box;
+    line-height: normal;
+    text-align: center;
+}
+
+h2{
+    color: #775703;
+}
+
+h3{
+    color: #775703;
+    font-size: 30px;
+}
+
+.testimonios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonio{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.testimonio .comentario{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+    
+.testimonio .autor{
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}

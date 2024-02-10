@@ -1,0 +1,31 @@
+.sucursal{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.sucursal .info h4{
+    color: #c6940e;
+    font-style: italic;
+    font-size: 20px;
+    border-bottom: 1px solid #e7c25e;
+    padding-bottom: 20px;
+}
+
+.sucursal .info p{
+    font-size: 16px;
+}
+
+.sucursal img{
+    border-radius: 13px;
+    display: block;
+    max-width: 150px;
+}
+
+.sucursal:nth-child(even){
+    flex-direction: row-reverse;
+}
